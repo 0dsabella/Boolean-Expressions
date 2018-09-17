@@ -16,11 +16,11 @@ let negativeX = (x < 0);
 
 //using all 3 variables
 let allPositive = (x > 0 && y > 0 && z > 0);
-let allNegative = (x < 0 && y < 0 && z < 0);
+let allNegative = !(x > 0 && y > 0 && z > 0);
 
 //using all 3 variables
 let atLeastOnePositive = (x > 0 || y > 0 || z > 0);
-let atLeastOneNegative = (x < 0 || y < 0 || z < 0);
+let atLeastOneNegative = !(x > 0 || y > 0 || z > 0);
 
 
 /*
